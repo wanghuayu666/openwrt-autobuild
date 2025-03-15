@@ -76,10 +76,9 @@ rm -rf feeds/packages/utils/v2dat
 # }
 
 install_small8() {
-    ./scripts/feeds install -p small8 -f  luci-app-passwall mosdns luci-app-mosdns \
+    ./scripts/feeds install -p small8 -f  luci-app-passwall\
     luci-app-openclash luci-app-poweroff luci-theme-argon luci-app-argon-config\
-    luci-app-adguardhome luci-app-ssr-plus trojan-plus v2ray-geodata v2ray-plugin\
-    v2ray-core shadowsocks-rust xray-core v2dat
+   
 }
 
 # fix_miniupmpd() {
