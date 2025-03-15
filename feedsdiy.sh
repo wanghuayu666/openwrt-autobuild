@@ -3,19 +3,19 @@
 source /etc/profile
 BASE_PATH=$(cd $(dirname $0) && pwd)
 
-# rm -rf feeds/packages/net/adguardhome
+rm -rf feeds/packages/net/adguardhome
 rm -rf feeds/packages/net/mosdns
-# rm -rf feeds/packages/net/msd_lite
-# rm -rf feeds/packages/net/smartdns
+rm -rf feeds/packages/net/msd_lite
+rm -rf feeds/packages/net/smartdns
 rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/luci/themes/luci-theme-netgear
 rm -rf feeds/luci/applications/luci-app-adguardhome
 rm -rf feeds/luci/applications/luci-app-mosdns
 # rm -rf feeds/luci/applications/luci-app-netdata
 # rm -rf feeds/luci/applications/luci-app-serverchan
-rm -rf feeds/luci/applications/luci-app-openclash
+# rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf feeds/luci/applications/luci-app-argon-config
+# rm -rf feeds/luci/applications/luci-app-argon-config
 rm -rf feeds/luci/applications/luci-app-ssr-plus
 rm -rf feeds/packages/net/trojan-plus
 rm -rf feeds/packages/net/v2ray-geodata
